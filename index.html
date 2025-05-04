@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Control9 Esports</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header img.logo {
+            width: 150px;
+        }
+        nav {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #00aaff;
+        }
+        .about, .players, .calendar, .contact, .gallery, .social {
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.1em;
+        }
+        li {
+            margin: 8px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+        th, td {
+            border: 1px solid #00aaff;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0d1b2a;
+        }
+        td {
+            background-color: #1a1a1a;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #00aaff;
+            border-radius: 10px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .social a {
+            color: #00aaff;
+            display: block;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="control9.png" alt="Control9 Logo" class="logo">
+    </header>
+    <nav>
+        <a href="#players">Gracze</a>
+        <a href="#calendar">Kalendarz Meczów</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#social">Social Media</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section class="about">
+        <h1>Control9 Esports</h1>
+        <p>Control9 to dynamiczna drużyna e-sportowa skupiająca się na rywalizacji na najwyższym poziomie. Naszym celem jest nie tylko zwyciężać, ale również inspirować społeczność graczy. Z pasją, zaangażowaniem i determinacją dążymy do bycia najlepszymi!</p>
+    </section>
+    <section class="players" id="players">
+        <h2>Skład drużyny</h2>
+        <ul>
+            <li>gum1s</li>
+            <li>g0ra</li>
+            <li>steryd98</li>
+            <li>---</li>
+            <li>---</li>
+        </ul>
+    </section>
+    <section class="calendar" id="calendar">
+        <h2>Kalendarz Meczów</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Przeciwnik</th>
+                    <th>Turniej</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-05-10</td>
+                    <td>Team Phoenix</td>
+                    <td>Spring Showdown</td>
+                </tr>
+                <tr>
+                    <td>2025-05-17</td>
+                    <td>DarkZone</td>
+                    <td>eChampions League</td>
+                </tr>
+                <tr>
+                    <td>2025-05-25</td>
+                    <td>Wolfpack</td>
+                    <td>Control Cup</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery-container">
+            <img src="control9.png" alt="Control9 Logo">
+            <img src="control9.png" alt="Control9 Logo">
+            <img src="control9.png" alt="Control9 Logo">
+        </div>
+    </section>
+    <section class="social" id="social">
+        <h2>Social Media</h2>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania lub chcesz się z nami skontaktować? Napisz na: <a href="mailto:control9esports@gmail.com" style="color:#00aaff;">control9esports@gmail.com</a></p>
+    </section>
+</body>
+</html>
